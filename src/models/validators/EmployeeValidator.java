@@ -1,4 +1,4 @@
-package validators;
+package models.validators;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,7 +9,6 @@ import models.Employee;
 import utils.DBUtil;
 
 public class EmployeeValidator {
-
     public static List<String> validate(Employee e, Boolean codeDuplicateCheckFlag, Boolean passwordCheckFlag) {
         List<String> errors = new ArrayList<String>();
 
